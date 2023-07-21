@@ -1,0 +1,7 @@
+-Dfile.encoding=UTF-8
+-p
+"C:\\Users\\Valter\\eclipse-workspace\\sintaxe_variaveis_e_fluxo\\bin"
+-XX:+ShowCodeDetailsInExceptionMessages
+-m
+sintaxe_variaveis_e_fluxo/sintaxe_variaveis_e_fluxo.TestaCondicional
+-Dfile.encoding=utf-8
