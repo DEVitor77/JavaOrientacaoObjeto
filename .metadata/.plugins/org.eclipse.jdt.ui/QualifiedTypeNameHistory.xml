@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Conta"/>
+    <fullyQualifiedTypeName name="bytebank_herdado.FuncionarioTeste"/>
+    <fullyQualifiedTypeName name="bytebank_herdado.Funcionario"/>
 </qualifiedTypeNameHistroy>

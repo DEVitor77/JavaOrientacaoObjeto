@@ -17,6 +17,11 @@ public class Conta {
 	}
 	
 	
+	public Conta(int agencia2, int numero2) {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	void deposita(double valor) {
 		this.saldo += valor;
 	}
