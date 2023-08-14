@@ -8,11 +8,7 @@ public class ContaCorrente extends Conta {
 	}
 		@Override
 		public boolean saca(double valor) {
-			double ValorASacar = valor + 0.20; 
+			double ValorASacar = valor + 0.20;
 			return super.saca(ValorASacar);
-		}
-		@Override
-		public void deposita(double valor) {
-			super.saldo += valor;			
 		}
 }
