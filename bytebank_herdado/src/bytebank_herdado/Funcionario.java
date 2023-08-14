@@ -1,14 +1,14 @@
 package bytebank_herdado;
 
-public class Funcionario {
+
+//não pode estanciar nessa classe porque é abstrato
+public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
 	private double salario;
 	
-	public double getBonificacao(){
-		return this.salario * 0.05;
-	}
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
