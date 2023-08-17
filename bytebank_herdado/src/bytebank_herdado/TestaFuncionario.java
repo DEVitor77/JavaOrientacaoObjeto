@@ -4,6 +4,10 @@ public class TestaFuncionario {
 
 	public static void main(String[] args) {
 		
+		Cliente cliente = new Cliente();
+		
+		
+		
 		Gerente valter = new Gerente();
 		valter.setNome("Valter Vitor");
 		valter.setCpf("223385489-5");

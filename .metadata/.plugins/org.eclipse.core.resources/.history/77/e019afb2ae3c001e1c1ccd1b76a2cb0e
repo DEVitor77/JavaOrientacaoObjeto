@@ -1,0 +1,12 @@
+package bytebank_herdado;
+// gerente é um Funcionario, gerente herda da classe funcionarioAutenticavel
+public class Gerente extends Autenticavel {
+	
+	public double getBonificacao(){
+		System.out.println("chamando o metodo de bonificacao do GERENTE");
+		return  super.getSalario();
+	}
+
+}
+
+	

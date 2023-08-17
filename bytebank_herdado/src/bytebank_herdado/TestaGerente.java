@@ -3,6 +3,9 @@ package bytebank_herdado;
 public class TestaGerente {
 
 	public static void main(String[] args) {
+		
+		Autenticavel referencia  = new Cliente();
+		
 		Gerente g1 = new Gerente();
 		g1.setNome("Joarez");
 		g1.setCpf("346798654-85");
